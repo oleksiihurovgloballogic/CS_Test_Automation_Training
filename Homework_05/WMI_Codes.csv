@@ -1,0 +1,296 @@
+WMI,Manufacturer,Country
+55,Mercedes Benz,United States
+935,Citroën,Brazil
+936,Peugeot,Brazil
+953,VW Trucks / MAN,Brazil
+988,Jeep,Brazil
+1B,Dodge,United States
+1C,Chrysler,United States
+1F,Ford,United States
+1G,General Motors,United States
+1G1,Chevrolet,United States
+1G3,Oldsmobile,United State
+1G4,Buick,United States
+1GB,Chevrolet incomplete vehicles,United States
+1GC,Chevrolet,United States
+1GD,GMC incomplete vehicles,United States
+1GM,Pontiac,United States
+1HG,Honda,United States
+1J,Jeep,United States
+1L,Lincoln,United States
+1M,Mercury,United States
+1MR,Continental,United States
+1N,Nissan,United States
+1VW,Volkswagen,United States
+1YV,Mazda,United States
+1ZV,Ford,United States
+2DG,Ontario Drive & Gear,Canada
+2F,Ford,Canada
+2G1,Chevrolet,Canada
+2G2,Pontiac,Canada
+2GX,General Motors,Canada
+2HG,Honda,Canada
+2HH,Acura,Canada
+2HJ,Honda,Canada
+2HK,Honda,Canada
+2HM,Hyundai,Canada
+2L9,Les Contenants Durabac,Canada
+2LN,Lincoln,Canada
+2M,Mercury,Canada
+2T,Toyota,Canada
+3F,Ford,Mexico
+3G,General Motors,Mexico
+3HG,Honda,Mexico
+3HM,Honda,Mexico
+3KP,Kia,Mexico
+3N,Nissan,Mexico
+3VW,Volkswagen,Mexico
+4F,Mazda,United States
+4J,Mercedes Benz,United States
+4M,Mercury,United States
+4S3,Subaru,United States
+4S4,Subaru,United States
+4S6,Honda,United States
+4T,Toyota,United States
+4US,BMW,United States
+5FN,Honda,United States
+5J6,Honda,United States
+5L,Lincoln,United States
+5N1,Nissan,United States
+5NM,Hyundai,United States
+5NP,Hyundai,United States
+5T,Toyota,United States
+5U,BMW,United States
+5X,Hyundai / Kia,United States
+5YJ,Tesla,United States
+6F,Ford,Australia
+6G,General Motors,Australia
+6G1,Chevrolet,Australia
+6G2,Pontiac,Australia
+6H,Holden,Australia
+6MM,Mitsubishi,Australia
+6T1,Toyota,Australia
+6U9,Japanese Imports,Australia
+7A1,Mitsubishi,New Zealand
+7A3,Honda,New Zealand
+7A4,Toyota,New Zealand
+7A5,Ford,New Zealand
+7A8,NZ Transport Agency (pre-2009),New Zealand
+7AT,NZ Transport Agency (post-2009),New Zealand
+8A1,Renault,Argentina
+8AC,Mercedes Benz,Argentina
+8AD,Peugeot,Argentina
+8AF,Ford,Argentina
+8AG,General Motors,Argentina
+8AJ,Toyota,Argentina
+8AP,Fiat,Argentina
+8AT,Iveco,Argentina
+8AW,Volkswagen,Argentina
+8BC,Citroën,Argentina
+8C3,Honda,Argentina
+93H,Honda,Brazil
+93W,Fiat Professional,Brazil
+93X,Souza Ramos - Mitsubishi / Suzuki,Brazil
+93Y,Renault,Brazil
+93Z,Iveco,Brazil
+94D,Nissan,Brazil
+94N,RWM Brazil,Brazil
+95P,CAOA / Hyundai,Brazil
+98M,BMW,Brazil
+98R,Chery,Brazil
+99A,Audi,Brazil
+99J,Jaguar Land Rover,Brazil
+9BD,Fiat Automóveis,Brazil
+9BF,Ford,Brazil
+9BG,General Motors,Brazil
+9BH,Hyundai,Brazil
+9BM,Mercedes Benz,Brazil
+9BR,Toyota,Brazil
+9BS,Scania,Brazil
+9BV,Volvo Trucks,Brazil
+9BW,Volkswagen,Brazil
+9C2,Honda Motorcycles,Brazil
+9C6,Yamaha,Brazil
+9CD,Suzuki (motorcycles),Brazil
+9FB,Renault,Colombia
+9UJ,Chery,Uruguay
+9UK,Lifan,Uruguay
+9UW,Kia,Uruguay
+AAV,Volkswagen,South Africa
+AFA,Ford,South Africa
+AHT,Toyota,South Africa
+BF9,KIBO Motorcycles,Kenya
+CL9,Wallyscar,Tunisia
+JA,Isuzu,Japan
+JC1,Fiat Automobiles / Mazda,Japan
+JF1,Subaru - Fuji Heavy Industries,Japan
+JF2,Subaru - Fuji Heavy Industries,Japan
+JF3,Subaru - Fuji Heavy Industries,Japan
+JF4,Saab,Japan
+JF5,Pontiac,Japan
+JHL,Honda,Japan
+JHM,Honda,Japan
+JM0,Mazda for Oceania export,Japan
+JM1,Mazda,Japan
+JM6,Mazda,Japan
+JMB,Mitsubishi,Japan
+JN,Nissan,Japan
+JS,Suzuki,Japan
+JT,Toyota,Japan
+JY,Yamaha,Japan
+KL,Daewoo / GM Korea,South Korea
+KMH,Hyundai,South Korea
+KN,Kia,South Korea
+KPT,SsangYong,South Korea
+L2C,Chery Jaguar Land Rover,China
+L6T,Geely,China
+LA6,King Long,China
+LB3,Geely,China
+LBE,Beijing Hyundai,China
+LBV,BMW Brilliance,China
+LC0,BYD Industry,China
+LDC,Dongfeng Peugeot-Citroën,China
+LE4,Beijing Benz,China
+LFM,FAW Toyota,China
+LFP,FAW Car,China
+LFV,FAW-Volkswagen,China
+LGB,Dongfeng Nissan,China
+LGJ,Dongfeng Fengshen,China
+LGW,Great Wall,China
+LGX,BYD Auto,China
+LH1,FAW Haima,China
+LHG,Guangzhou Honda,China
+LJ1,JAC,China
+LJD,Dongfeng Yueda Kia,China
+LLV,Lifan,China
+LMG,GAC Trumpchi,China
+LPA,Changan PSA (DS Automobiles),China
+LS5,Changan Suzuki,China
+LSFA,SAIC Maxus,China
+LSG,SAIC General Motors,China
+LSJ,SAIC MG,China
+LSV,SAIC Volkswagen,China
+LTV,FAW Toyota (Tianjin),China
+LVG,GAC Toyota,China
+LVH,Dongfeng Honda,China
+LVR,Changan Mazda,China
+LVS,Changan Ford,China
+LVV,Chery,China
+LWV,GAC Fiat,China
+LZW,SAIC GM Wuling,China
+LZY,Yutong,China
+MM0,Mazda,Thailand
+MMB,Mitsubishi,Thailand
+MNT,Nissan,Thailand
+MRH,Honda,Thailand
+MS0,Kia,Myanmar
+NM0,Ford Otosan,Turkey
+NMT,Toyota,Turkey
+PL1,Proton,Malaysia
+PL8,Hyundai Inokom,Malaysia
+PLP,Subaru,Malaysia
+PM1,BMW,Malaysia
+PM2,Perodua,Malaysia
+PM9,Bufori,Malaysia
+PMH,Honda,Malaysia
+PMK,Honda Boon Siew,Malaysia
+PML,Hicom,Malaysia
+PMN,Modenas,Malaysia
+PMV,Yamaha Hong Leong,Malaysia
+PN1,Toyota,Malaysia
+PN8,Nissan,Malaysia
+PNA,Kia,Malaysia
+PNA,Peugeot,Malaysia
+PNV,Volvo Cars,Malaysia
+PP1,Mazda,Malaysia
+PP3,Hyundai,Malaysia
+PPP,Suzuki,Malaysia
+PR8,Ford,Malaysia
+SAB,Optare,United Kingdom
+SAJ,Jaguar,United Kingdom
+SAL,Land Rover,United Kingdom
+SAR,Rover,United Kingdom
+SAT,Triumph,United Kingdom
+SB1,Toyota,United Kingdom
+SBM,McLaren Automotive,United Kingdom
+SCC,Lotus Cars,United Kingdom
+SCE,DeLorean,United Kingdom
+SCF,Aston Martin,United Kingdom
+SFD,Alexander Dennis,United Kingdom
+SHH,Honda,United Kingdom
+SHS,Honda,United Kingdom
+SJN,Nissan,United Kingdom
+SUD,Wielton,Poland
+TCC,Micro Compact Car,Switzerland
+TEB,Johnston sweeper (Bucher),UK/Switzerland
+TMA,Hyundai,Czech Republic
+TMB,Skoda,Czech Republic
+TRU,Audi,Hungary
+TSM,Suzuki,Hungary
+U5Y,Kia,Slovakia
+UU,Dacia,Romania
+VA0,ÖAF,Austria
+VF1,Renault,France
+VF2,Renault,France
+VF3,Peugeot,France
+VF4,Talbot,France
+VF5,Iveco Unic,France
+VF6,Renault Trucks / Volvo,France
+VF7,Citroën,France
+VF8,Matra / Talbot / Simca,France
+VF9,Bugatti,France
+VFE,IvecoBus,France
+VNK,Toyota,France
+VR1,DS Automobiles,France
+VS7,Citroën,Spain
+VSS,SEAT,Spain
+VV9,Tauro Sport Auto,Spain
+W09,Ruf Automobile,Germany
+W0L,Opel / Vauxhal,Germany
+W0SV,Opel Special Vehicles,Germany
+WAG,Neoplan,Germany
+WAP,Alpina,Germany
+WAU,Audi,Germany
+WBA,BMW,Germany
+WBS,BMW M,Germany
+WBX,BMW,Germany
+WDB,Mercedes Benz,Germany
+WDC,Daimler Chrysler AG / Daimler AG,Germany
+WDD,Daimler Chrysler AG / Daimler AG,Germany
+WEB,EvoBus,Germany
+WF0,Ford of Europe,Germany
+WJM,Iveco,Germany
+WJR,Irmscher,Germany
+WKK,Karl Kässbohrer Fahrzeugwerke,Germany
+WMA,MAN,Germany
+WME,Smart,Germany
+WMW,Mini,Germany
+WMX,Daimler Chrysler AG / Daimler AG,Germany
+WP0,Porsche,Germany
+WP1,Porsche SUV,Germany
+WUA,Quattro,Germany
+WV1,Volkswagen Commercial Vehicles,Germany
+WV2,Volkswagen Commercial Vehicles,Germany
+WVG,Volkswagen,Germany
+WVW,Volkswagen,Germany
+XLR,DAF Trucks,Netherlands
+XTA,AvtoVAZ (Lada),Russia
+YK1,Saab,Finland
+YS2,Scania | Södertälje,Sweden
+YS3,Saab,Sweden
+YS4,Scania | Katrineholm,Sweden
+YT9,Koenigsegg Automotive,Sweden
+YTN,Saab NEVS,Sweden
+YV2,Volvo Trucks,Sweden
+YV3,Volvo Buses,Sweden
+YV3,Volvo Cars,Sweden
+ZA9,Bugatti,Italy
+ZAM,Maserati,Italy
+ZAP,Piaggio,Italy
+ZAR,Alfa Romeo,Italy
+ZCF,Iveco,Italy
+ZFA,Fiat,Italy
+ZFF,Ferrari,Italy
+ZGA,IvecoBus,Italy
+ZHW,Lamborghini,Italy
+ZLA,Lancia,Italy
