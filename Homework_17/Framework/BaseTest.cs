@@ -22,7 +22,11 @@ namespace Homework_17.Framework
 		{
 			ChromeOptions options = new ChromeOptions();
 			options.AddArgument("start-maximized");
-			drv = new ChromeDriver(options);
+			//drv = new ChromeDriver(options);
+
+			var service = ChromeDriverService.CreateDefaultService("D:\\Projects\\CS\\oleksii.hurov\\Homework_17\\bin\\Debug\\net7.0\\chromedriver.exe");
+			drv = new ChromeDriver(service, options);
+
 			wait = new WebDriverWait(drv, TimeSpan.FromSeconds(5));
 			drv.Navigate().GoToUrl($"{testUrl}/CorpNet/Login.aspx");
 			LoginToCorpNet();

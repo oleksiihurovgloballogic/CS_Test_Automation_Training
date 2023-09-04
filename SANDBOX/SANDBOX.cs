@@ -11,6 +11,7 @@ namespace SANDBOX
 	{
 		protected IWebDriver drv;
 		protected WebDriverWait wait;
+		protected static string _ChromeDriver = Environment.GetEnvironmentVariable("CHROMEDRIVER", EnvironmentVariableTarget.User);
 		protected static string _BaseUrl = Environment.GetEnvironmentVariable("ENT_QA_BASE_URL", EnvironmentVariableTarget.User);
 		protected static string _User = Environment.GetEnvironmentVariable("ENT_QA_USER", EnvironmentVariableTarget.User);
 		protected static string _Password = Environment.GetEnvironmentVariable("ENT_QA_PASS", EnvironmentVariableTarget.User);
@@ -21,7 +22,11 @@ namespace SANDBOX
 		{
 			ChromeOptions options = new ChromeOptions();
 			options.AddArgument("start-maximized");
-			drv = new ChromeDriver(options);
+
+			//drv = new ChromeDriver(options);
+			var service = ChromeDriverService.CreateDefaultService(_ChromeDriver);
+			drv = new ChromeDriver(service, options);
+
 			wait = new WebDriverWait(drv, TimeSpan.FromSeconds(5));
 			drv.Navigate().GoToUrl($"{_BaseUrl}/CorpNet/Login.aspx");
 			LoginToCorpNet();
