@@ -1,3 +1,4 @@
+using Microsoft.VisualStudio.TestPlatform.ObjectModel;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -54,11 +55,30 @@ namespace SANDBOX
 		private void NavigateToPage()
 		{
 			drv.Navigate().GoToUrl($"{_BaseUrl}/corpnet/common/todolist.aspx");
+			var pageTitle = wait.Until(ExpectedConditions.ElementIsVisible(By.ClassName("page-title")));
+			Thread.Sleep(3000); // DEBUG //
 		}
 
 		private void OpenDialog()
 		{
-			drv.FindElement(By.ClassName("area-action background-border icon-add")).Click();
+			drv.FindElement(By.XPath("//ul[@class='plain-actions']/li[@class='area-action background-border icon-add']")).Click();
+			Thread.Sleep(1000); // DEBUG //
+		}
+
+		private void FillInputFields()
+		{
+			const string ToDoTypeFieldXpath = "//span[@class='k-widget k-dropdown corrigo-text-field']//span[@class='k-input']";
+			const string ToDoDescriptionFieldXpath = "//input[@data-bind='kendoCorrigoTextField: description']";
+			const string ToDoAssignedToFieldXpath = "//div[@class='widget-control']//span[@class='k-widget k-combobox k-combobox-clearable corrigo-autocomplete']//input[@class='k-input']";
+			const string ToDoDueByFieldXpath = "//input[@data-bind='kendoCorrigoDateTimePicker: dueBy']";
+
+			drv.FindElement(By.XPath(ToDoTypeFieldXpath)).Click();
+			Thread.Sleep(2000); // DEBUG //
+			drv.FindElement(By.XPath(ToDoDescriptionFieldXpath)).SendKeys("d e s c r i p t i o n");
+			Thread.Sleep(2000); // DEBUG //
+			drv.FindElement(By.XPath(ToDoAssignedToFieldXpath)).SendKeys("System Administrator");
+			Thread.Sleep(2000); // DEBUG //
+			drv.FindElement(By.XPath(ToDoDueByFieldXpath)).SendKeys("9/4/2023 5:22 PM");
 		}
 
 		[Test, Order(1)]
@@ -66,7 +86,8 @@ namespace SANDBOX
 		{
 			NavigateToPage();
 			OpenDialog();
-			Thread.Sleep(3000); // DEBUG //
+			FillInputFields();
+			Thread.Sleep(2000); // DEBUG //
 		}
 	}
 }
