@@ -1,0 +1,32 @@
+﻿----------------------------------------------------
+"Create Work Order - Add Asset/Task" dialog locators
+----------------------------------------------------
+
+
+CSS-locators:
+-------------
+
+span[class*="k-dropdown-wrap"] > input.k-input.id-asset-autocomplete
+
+div.horizontal[data-bind*="activeWosComputed"] + div.number-container
+
+div.id-asset-details-container > div.id-description-container > textarea.corrigo-text-block
+
+div.modal-footer button.id-btn-close
+
+div.modal-footer button.id-btn-save
+
+
+
+XPath locators:
+---------------
+
+//input[contains(@class, 'k-input') and contains(@class, 'id-asset-autocomplete')]
+
+//div[@class='horizontal' and contains(@data-bind, 'activeWosComputed')]/following-sibling::div[@class='number-container']
+
+//div[contains(@class, 'id-asset-details-container')]//div[@class='id-description-container']//textarea[@class='corrigo-text-block']
+
+//div[@class='modal-footer']//button[contains(@class, 'id-btn-close')]
+
+//div[@class='modal-footer']//button[contains(@class, 'id-btn-save')]
