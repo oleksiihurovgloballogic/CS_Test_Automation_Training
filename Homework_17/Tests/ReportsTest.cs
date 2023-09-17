@@ -6,7 +6,6 @@ using OpenQA.Selenium.Interactions;
 using SeleniumExtras.WaitHelpers;
 using Homework_17.Framework;
 
-
 namespace Homework_17.Tests
 {
 	public class ReportsTest : BaseTest
